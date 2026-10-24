@@ -1,0 +1,5 @@
+# 0/1 knapsack in the Forbid language.   run:  python nihil.py run knapsack.nihil
+world knapsack
+var a b c d e in 0..1
+require 12*a + 7*b + 11*c + 8*d + 9*e <= 26      # capacity
+maximize 24*a + 13*b + 23*c + 15*d + 16*e        # value
